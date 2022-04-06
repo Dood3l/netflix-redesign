@@ -23,6 +23,7 @@ function Movies() {
         <div className='banner--fadeBottom'></div>
     </div>
 
+    {/* larger movie row */}
     <div className='movie_row'>
         <h2>
             Netflix Originals
