@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import Movies from './Movies';
 import './App.css';
 import Contact from './contact'
 import './contact.css'
@@ -6,7 +6,9 @@ import './contact.css'
 function App() {
   return (
     <div className="App">
-     <Contact />
+  
+        <Movies/>
+    <Contact/>
     </div>
   );
 }
