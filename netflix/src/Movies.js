@@ -4,20 +4,36 @@ import './Movies.css';
 function Movies() {
   return (
     <>
+    {/* header */}
+    <div className='banner'>
+        <div className='banner_items'>
+            <h1 className='banner_title'>Snowfall</h1>
+            <div className='banner_buttons'>
+                <button className='banner_button'>Play</button>
+                <button className='banner_button'>Add to Favorites</button>
+            </div>
+            <div className='banner_description'>
+            "Snowfall" is a drama set against the infancy of the crack cocaine epidemic in Los Angeles 
+            and its ultimate radical impact on the culture as we know it.
+            </div>
+        </div>
+        <div className='banner--fadeBottom'></div>
+    </div>
+
     <div className='movie_row'>
         <h2>
             Netflix Originals
         </h2>
         <div className='row_posters'>
-            <img className='row_poster_large_row' src='/moviesimages/adamproject.png' alt='adamproject'/>
-            <img className='row_poster_large_row' src='/moviesimages/shrek.png' alt='shrek'/>
-            <img className='row_poster_large_row' src='/moviesimages/thebubble.png' alt='thebubble'/>
-            <img className='row_poster_large_row' src='/moviesimages/fourbrothers.jpeg' alt='fourbrothers'/>
-            <img className='row_poster_large_row' src='/moviesimages/therental.jpg' alt='therental'/>
-            <img className='row_poster_large_row' src='/moviesimages/blow.png' alt='blow'/>
-            <img className='row_poster_large_row' src='/moviesimages/howtotraindragon.jpg' alt='dragon'/>
-            <img className='row_poster_large_row' src='/moviesimages/hometeam.jpg' alt='hometeam'/>
-            <img className='row_poster_large_row' src='/moviesimages/sorrytobotheryou.png' alt='sorrytobotheryou'/>
+        <img className='row_poster large_row' src='/moviesimages/howtotraindragon.jpg' alt='dragon'/>
+            <img className='row_poster large_row' src='/moviesimages/hometeam.jpg' alt='hometeam'/>
+            <img className='row_poster large_row' src='/moviesimages/sorrytobotheryou.png' alt='sorrytobotheryou'/>
+            <img className='row_poster large_row' src='/moviesimages/shrek.png' alt='shrek'/>
+            <img className='row_poster large_row' src='/moviesimages/thebubble.png' alt='thebubble'/>
+            <img className='row_poster large_row' src='/moviesimages/fourbrothers.jpeg' alt='fourbrothers'/>
+            <img className='row_poster large_row' src='/moviesimages/therental.jpg' alt='therental'/>
+            <img className='row_poster large_row' src='/moviesimages/blow.png' alt='blow'/>
+            <img className='row_poster large_row' src='/moviesimages/adamproject.png' alt='adamproject'/>
         </div>
     </div>
 
