@@ -171,6 +171,7 @@ html {
     transition-duration: 0.4s;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 100px;
 }
 .btn:nth-child(5):hover{
     transition-duration: 0.4s;
@@ -178,6 +179,7 @@ html {
     height: 225px;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 100px;
 }
 .loading {
     padding-top: 30px;
