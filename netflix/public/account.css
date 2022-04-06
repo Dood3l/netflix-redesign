@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.accounts {
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+  }
+  
+.accounts h1 {
+    font-size: 7rem;
+    letter-spacing: 0.2rem;
+}
+
+html {
+    font-size: 62.5%
+}
+.logo {
+    margin-top: 1%;
+    margin-left: 2.5%;
+    width: 125px; 
+    height: auto;
+}
+.manage-profile {
+    width: 100vw;
+    height: 100vh;
+    background-color: #141414;
+    text-align: left;
+}
+.profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-top: 4rem;
+    margin-right: 3.5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.manage {
+    border: 1px solid grey;
+    color: grey;
+    text-transform: uppercase;
+    padding: 0.8rem 2.4rem;
+    letter-spacing: 0.5rem;
+    font-size: 2.5rem;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 12rem;
+}
+.goBack {
+    border: 1px solid grey;
+    color: grey;
+    text-transform: uppercase;
+    padding: 0.8rem 2.4rem;
+    letter-spacing: 0.5rem;
+    font-size: 2.5rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+.goBack:hover {
+    border: 1px solid #fff;
+    color: #fff;
+}
+.loadingTopSpace {
+    margin-top: 100px;
+}
+.manage:hover {
+    border: 1px solid #fff;
+    color: #fff;
+}
+/* .btn:hover {
+    border: 1px solid #fff;
+} */
+
+.profiles .btn span,
+.manage span {
+  width: inherit;
+  position: absolute;
+  margin-top: 58%;
+  left: 0;
+  color: white;
+  font-size: 2.4rem;
+  
+}
+
+.btn:nth-child(1){
+    background-image: url("accountimages/cat.png");
+    transition-duration: 0.4s;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn:nth-child(1):hover{
+    background-image: url("accountimages/impressed-awsome.gif");
+    transition-duration: 0.4s;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 1rem white);
+}
+
+.btn:nth-child(2){
+    background-image: url("accountimages/rat.png");
+    transition-duration: 0.4s;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn:nth-child(2):hover{
+    background-image: url("accountimages/ratDance.gif");
+    transition-duration: 0.4s;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 1rem white);
+}
+
+.btn:nth-child(3){
+    background-image: url("accountimages/chitoge.png");
+    transition-duration: 0.4s;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn:nth-child(3):hover{
+    background-image: url("accountimages/chitoge.gif");
+    transition-duration: 0.4s;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 1rem white);
+}
+
+.btn:nth-child(4){
+    background-image: url("accountimages/duck.png");
+    transition-duration: 0.4s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: bisque; */
+}
+.btn:nth-child(4):hover{
+    background-image: url("accountimages/impressed-awsome.gif");
+    transition-duration: 0.4s;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 1rem white);
+}
+
+.btn:nth-child(5){
+    background-image: url("accountimages/plusIcon.png");
+    transition-duration: 0.4s;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn:nth-child(5):hover{
+    transition-duration: 0.4s;
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.loading {
+    padding-top: 30px;
+    margin-bottom: -60px;
+}
