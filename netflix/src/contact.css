@@ -1,0 +1,65 @@
+.form-body{
+    background-color: #fff;
+  }
+  form{
+    display: block;
+    margin-top: 0em;
+  }
+  input-container{
+    border: 0;
+    border-top-color: initial;
+      border-top-style: initial;
+      border-top-width: 0px;
+      border-right-color: initial;
+      border-right-style: initial;
+      border-right-width: 0px;
+      border-bottom-color: initial;
+      border-bottom-style: initial;
+      border-bottom-width: 0px;
+      border-left-color: initial;
+      border-left-style: initial;
+      border-left-width: 0px;
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+  }
+  input:active{
+    border-color: black;
+  }
+  fieldset{
+    display: block;
+      margin-inline-start: 2px;
+      margin-inline-end: 2px;
+      padding-block-start: 0.35em;
+      padding-inline-start: 0.75em;
+      padding-inline-end: 0.75em;
+      padding-block-end: 0.625em;
+      min-inline-size: min-content;
+  }
+  
+  .form-input-container{
+    display: flex;
+    
+  }
+  .form-input-container > input{
+    flex-grow: 1;
+    padding:0.5rem;
+    margin: .5rem;
+    height: 2rem;
+    
+  }
+  .button.default{
+    padding:0.5rem;
+    margin: .5rem;
+    height: 2rem;
+    width: 70%;
+    background-color: #e50914;
+      border: 0;
+      color: #fff;
+     
+  }
+  button{
+    padding: 13px 0;
+  }
