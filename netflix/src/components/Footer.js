@@ -5,6 +5,7 @@ import {
     faTwitter,
     faInstagram
   } from "@fortawesome/free-brands-svg-icons";
+import {Link} from 'react-router-dom';
 
 
 
@@ -39,7 +40,7 @@ const Footer = () =>{
                 <h1 className='company'>Connect</h1>
             </li>
             <li>
-                <a className='company'>Contact Us</a>
+            <Link to="Contact"><a className='company'>Contact Us</a></Link>
             </li>
             <li>
                 <a className='socials' href='https://twitter.com/netflix'> <FontAwesomeIcon icon={faTwitter} size="2x" /></a>

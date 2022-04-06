@@ -16,6 +16,7 @@ function App() {
         <Route path='/' element={<Accounts />} />
         <Route path='/accountload' element={<AccountLoad />} />
         <Route path='/movies' element={<Movies />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
