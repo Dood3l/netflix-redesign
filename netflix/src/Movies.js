@@ -1,9 +1,12 @@
 import React from 'react'
 import './Movies.css';
+import Nav from '../src/components/Nav.js'
 
 function Movies() {
   return (
     <>
+    <Nav />
+
     {/* header */}
     <div className='banner'>
         <div className='banner_items'>
@@ -72,7 +75,6 @@ function Movies() {
             <img className='row_poster' src='/moviesimages/survivingparadise.jpg' alt='survivingparadise'/>
         </div>   
     </div> */}
-
     </>
   )
 }

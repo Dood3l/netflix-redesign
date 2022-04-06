@@ -52,7 +52,7 @@ body {
 .banner {
     background-image: url(../public/moviesimages/snowfall.png);
     background-size: cover;
-    background-position: center center;
+    /* background-position: center center; */
     color: white;
     object-fit: contain;
     height: 448px;
@@ -103,10 +103,31 @@ body {
 .banner--fadeBottom {
     margin-top: 145px;
     height: 7.4rem;
-    background-image: linear-gradient(180deg, transparent, rgba (37, 37, 37, 0.61), #111);
-
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
 }
 
+/* nav */
+.nav_logo {
+    width: 80px;
+    object-fit: contain;
+}
+
+.nav_avatar {
+    width: 30px;
+    object-fit: contain;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
 
 
 
