@@ -1,5 +1,7 @@
 .form-body{
     background-color: #fff;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
   form{
     display: block;
@@ -63,3 +65,4 @@
   button{
     padding: 13px 0;
   }
+

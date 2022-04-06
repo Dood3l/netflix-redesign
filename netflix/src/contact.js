@@ -1,6 +1,6 @@
 import './App.css';
 import './contact.css'
-
+import {Link} from 'react-router-dom';
 
 
 
@@ -8,6 +8,10 @@ const Contact = () =>{
 
     return(
         <>
+        <div>
+        <Link to="/"><img src="accountimages/Netflix_2015_logo.svg"  alt="logo" class="logo"/></Link>
+        </div>
+
         <form  className = 'form-body'>
             <fieldset className='input-container'>
             <div className = 'form-input-container'>
