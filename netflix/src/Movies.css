@@ -17,6 +17,9 @@ body {
     transition: transform 450ms;
 }
 
+/* movie reviews */
+
+
 .row_poster:hover {
     transform: scale(1.08);
 }
