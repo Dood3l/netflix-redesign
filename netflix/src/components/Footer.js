@@ -1,7 +1,6 @@
 import '../App.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faYoutube,
     faFacebook,
     faTwitter,
     faInstagram
