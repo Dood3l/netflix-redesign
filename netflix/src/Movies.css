@@ -113,26 +113,19 @@ body {
 }
 
 /* nav */
-.nav_logo {
+/* .nav_logo {
     width: 80px;
-    object-fit: contain;
-}
+    object-fit: contain
+} */
 
-.nav_avatar {
+/* .nav_avatar {
     width: 30px;
     object-fit: contain;
-}
+} */
 
 .nav {
     position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    z-index: 1;
-    transition-timing-function: ease-in;
-    transition: all 0.5s;
-}
-
+    margin-left: 2.3%;
+    margin-top: 0.9%;
+} 
 
