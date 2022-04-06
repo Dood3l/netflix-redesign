@@ -3,6 +3,7 @@
   
 }
 body{
+  
   background-color: #1f2126;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -21,4 +22,58 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+
+/* FOOTER CSS */
+
+.footer-container {
+  display: flex;
+    padding: 2rem;
+    z-index: 50;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(22, 22, 22);
+}
+.footer-links{
+  width: 33%;
+    display: flex;
+    min-width: 300px;
+    margin-bottom: 4rem;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+ul{
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li{
+  display:flex;
+  flex-direction: row;
+  box-sizing: inherit;
+}
+.company{
+  color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    display: block;
+    padding: 1rem 0;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.socials{
+  display:flex;
+  flex-direction: row;
+    margin-right: 0.3rem;
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    display: block;
+    padding: 1rem 0;
+    font-size: 14px;
+    text-decoration: none;
 }
