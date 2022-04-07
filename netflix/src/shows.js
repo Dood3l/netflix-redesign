@@ -19,9 +19,9 @@ function Shows() {
                 <button className='banner_button'>Play</button>
                 <button className='banner_button'>Add to Favorites</button>
             </div>
-            <div className='banner_description'>
+            {/* <div className='banner_description'>
             "Halo is an American military science fiction television series developed by Kyle Killen and Steven Kane for the streaming service Paramount+, loosely based on the video game franchise of the same name. Produced by Showtime Networks, 343 Industries, Amblin Television, One Big Picture, and Chapter Eleven, the series follows a 26th-century war between the United Nations Space Command and the Covenant, a theocratic-military alliance of several advanced alien races determined to eradicate the human race."
-            </div>
+            </div> */}
         </div>
         <div className='banner--fadeBottom'></div>
     </div>
@@ -56,29 +56,11 @@ function Shows() {
             <img className='row_poster' src='/showimages/ms-marvel.jpeg' alt='uncutgems'/>
             <img className='row_poster' src='/showimages/obi-wan.jpeg' alt='cloudywithchanceofmeatballs'/>
             <img className='row_poster' src='/showimages/hsd.jpeg' alt='rush'/>
-            <img className='row_poster' src='/moviesimages/captainnova.jpg' alt='captainnova'/>
-            <img className='row_poster' src='/moviesimages/21bridges.jpg' alt='21bridges'/>
-            <img className='row_poster' src='/moviesimages/survivingparadise.jpg' alt='survivingparadise'/>
+            <img className='row_poster' src='/showimages/manifest.jpeg' alt='manifest'/>
+            <img className='row_poster' src='/showimages/girlfriends.jpeg' alt='girlfriends'/>
+            <img className='row_poster' src='/showimages/ginnyandgeorgia.jpeg' alt='ginnyandgeorgia'/>
         </div>   
     </div>
-
-    {/* top rated now */}
-    {/* <div className='movie_row'>
-        <h2>
-            Trending Now
-        </h2>
-        <div className='row_posters'>
-            <img className='row_poster' src='/moviesimages/trustno1.png' alt='trustnoone'/>
-            <img className='row_poster' src='/moviesimages/inception.png' alt='inception'/>
-            <img className='row_poster' src='/moviesimages/dontlookip.png' alt='dontlookup'/>
-            <img className='row_poster' src='/moviesimages/uncutgems.png.jpeg' alt='uncutgems'/>
-            <img className='row_poster' src='/moviesimages/cloudy.png' alt='cloudywithchanceofmeatballs'/>
-            <img className='row_poster' src='/moviesimages/rush.jpg' alt='rush'/>
-            <img className='row_poster' src='/moviesimages/captainnova.jpg' alt='captainnova'/>
-            <img className='row_poster' src='/moviesimages/21bridges.jpg' alt='21bridges'/>
-            <img className='row_poster' src='/moviesimages/survivingparadise.jpg' alt='survivingparadise'/>
-        </div>   
-    </div> */}
     </>
   )
 }
