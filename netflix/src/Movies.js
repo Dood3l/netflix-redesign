@@ -1,16 +1,18 @@
 import React from 'react'
 import './Movies.css';
 import Nav from '../src/components/Nav.js'
+import {Link} from 'react-router-dom';
 
 function Movies() {
   return (
     <>
     <Nav />
     
-
     {/* header */}
     <div className='banner'>
-        
+        <div className='backButton'>
+        <Link to="/AccountLoad"><img src='/accountimages/goBackButton.png' /></Link>
+        </div>  
 
         <div className='banner_items'>
             <h1 className='banner_title'>Snowfall</h1>

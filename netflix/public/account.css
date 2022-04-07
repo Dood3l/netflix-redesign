@@ -20,7 +20,9 @@
     font-size: 7rem;
     letter-spacing: 0.2rem;
 }
-
+.accounts h2 {
+    font-size: 3rem;
+}
 html {
     font-size: 62.5%
 }
@@ -81,6 +83,7 @@ html {
 }
 .loadingTopSpace {
     margin-top: 100px;
+    margin-left: -25px;
 }
 .manage:hover {
     border: 1px solid #fff;
@@ -184,4 +187,13 @@ html {
 .loading {
     padding-top: 30px;
     margin-bottom: -60px;
+}
+.backButton{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5%;
+}
+.backButton img{
+    width: 75px;
+    height: auto;
 }
