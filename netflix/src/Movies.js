@@ -29,10 +29,12 @@ function Movies() {
             Netflix Originals
         </h2>
         <div className='row_posters'>
-            {/* <div className='image_content'> */}
-                <img className='row_poster large_row' src='/moviesimages/howtotraindragon.jpg' alt='dragon'/>
-                {/* THIS IS MY FAVORITE MOVIE AND SERIES OF ALL TIME! I never get bored of it, the strong messages and emotional moments between characters makes it even more loveable.
-            </div> */}
+            <img className='row_poster large_row' src='/moviesimages/howtotraindragon.jpg' alt='dragon'/>
+            {/* <div className='content fade'>
+                <p>
+                THIS IS MY FAVORITE MOVIE AND SERIES OF ALL TIME! I never get bored of it, the strong messages and emotional moments between characters makes it even more loveable.
+                </p>
+            </div>    */}
             <img className='row_poster large_row' src='/moviesimages/hometeam.jpg' alt='hometeam'/>
             <img className='row_poster large_row' src='/moviesimages/sorrytobotheryou.png' alt='sorrytobotheryou'/>
             <img className='row_poster large_row' src='/moviesimages/shrek.png' alt='shrek'/>
@@ -40,7 +42,7 @@ function Movies() {
             <img className='row_poster large_row' src='/moviesimages/fourbrothers.jpeg' alt='fourbrothers'/>
             <img className='row_poster large_row' src='/moviesimages/therental.jpg' alt='therental'/>
             <img className='row_poster large_row' src='/moviesimages/blow.png' alt='blow'/>
-            <img className='row_poster large_row' src='/moviesimages/adamproject.png' alt='adamproject'/>
+            <img className='row_poster large_row' src='/moviesimages/adamproject.png' alt='adamproject'/> 
         </div>
     </div>
 
