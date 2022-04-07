@@ -6,9 +6,12 @@ function Movies() {
   return (
     <>
     <Nav />
+    
 
     {/* header */}
     <div className='banner'>
+        
+
         <div className='banner_items'>
             <h1 className='banner_title'>Snowfall</h1>
             <div className='banner_buttons'>

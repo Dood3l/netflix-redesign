@@ -7,6 +7,7 @@ import Accounts from './account';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AccountLoad from './accountLoading';
 import Footer from './components/Footer';
+import Shows from './shows';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Accounts />} />
         <Route path='/accountload' element={<AccountLoad />} />
         <Route path='/movies' element={<Movies />} />
+        <Route path='/shows' element={<Shows />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
