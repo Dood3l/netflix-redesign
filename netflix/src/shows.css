@@ -1,0 +1,9 @@
+/* banner */
+.banner1 {
+    background-image: url(../public/showsimages/TheCrown.jpeg);
+    background-size: cover;
+    /* background-position: center center; */
+    color: white;
+    object-fit: contain;
+    height: 448px;
+}

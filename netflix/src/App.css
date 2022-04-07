@@ -78,3 +78,12 @@ li{
     font-size: 14px;
     text-decoration: none;
 }
+.banner1 {
+  /* background-image: url(../public/showsimages/TheCrown.jpeg); */
+  background-image: url(../public/showimages/TheCrown.jpeg);
+  background-size: cover;
+  /* background-position: center center; */
+  color: white;
+  object-fit: contain;
+  height: 448px;
+}
