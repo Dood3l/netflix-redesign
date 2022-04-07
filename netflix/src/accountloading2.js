@@ -1,10 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 
-function AccountLoad() {
+function AccountLoads() {
     
     let tID = setTimeout(function () {
-        window.location.href = "/movies";
+        window.location.href = "/shows";
         window.clearTimeout(tID);
     }, 5000);
     //code above redirects to new page after 5 second delay
@@ -13,20 +13,20 @@ function AccountLoad() {
         <div class="manage-profile">
 
         <div>
-        <Link to="/"><img src="accountimages/Netflix_2015_logo.svg"  alt="user" class="logo"/></Link>
+        <Link to="/"><img src="accountimages/Netflix_2015_logo.svg"  alt="logo" class="logo"/></Link>
         </div>
 
         <div class="accounts">
 
-            <h1>Welcome back User 1!</h1>
+            <h1>Welcome back User 2!</h1>
             <div class="loading">
             <img src="accountimages/Spinner.gif" />
             </div>
-            <Link to="/" className='loadingTopSpace'><button class="goBack">Go Back</button></Link>
+            <Link to="/Shows" className='loadingTopSpace'><button class="goBack">Go Back</button></Link>
         </div>
 
     </div>
     )
 }
 
-export default AccountLoad
+export default AccountLoads
