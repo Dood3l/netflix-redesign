@@ -113,7 +113,7 @@ body {
 }
 
 /* movie reviews */
-/* .row_posters > .content{
+.review{
     position: absolute;
     font-size: 1.5rem;
     padding: 1rem;
@@ -126,17 +126,21 @@ body {
     opacity: 0;
   }
 
-  .row_posters > .content {
+  /* .row_posters > p {
     transform: scale(1.09);
-  }
-
-  .row_posters> .content.fade {
-    opacity: 0;
-  }
-
-  .row_posters:hover > .content.fade {
-    opacity: 1;
   } */
+
+  /* .row_posters > .movie.review p {
+    transform: scale(1.09);
+  } */
+
+  /* .row_posters> p {
+    opacity: 0;
+  } */
+
+  .review:hover {
+    opacity: 1;
+  }
 
 /* nav */
 .nav {

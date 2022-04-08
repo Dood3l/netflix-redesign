@@ -29,13 +29,11 @@ function Movies() {
             Netflix Originals
         </h2>
         <div className='row_posters'>
-            <img className='row_poster large_row' src='/moviesimages/howtotraindragon.jpg' alt='dragon'/>
-            {/* <div className='content fade'>
-                <p>
+            <img className='row_poster large_row' src='/moviesimages/howtotraindragon.jpg' alt='dragon'/> 
+                <p className='review'>
                 THIS IS MY FAVORITE MOVIE AND SERIES OF ALL TIME! I never get bored of it, the strong messages and emotional moments between characters makes it even more loveable.
-                </p>
-            </div>    */}
-            <img className='row_poster large_row' src='/moviesimages/hometeam.jpg' alt='hometeam'/>
+                </p> 
+            <img className='row_poster large_row' src='/moviesimages/hometeam.jpg' alt='hometeam'/> 
             <img className='row_poster large_row' src='/moviesimages/sorrytobotheryou.png' alt='sorrytobotheryou'/>
             <img className='row_poster large_row' src='/moviesimages/shrek.png' alt='shrek'/>
             <img className='row_poster large_row' src='/moviesimages/thebubble.jpg' alt='thebubble'/>
