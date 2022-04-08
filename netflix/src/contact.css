@@ -1,68 +1,69 @@
 .form-body{
+  padding: 5rem;
     background-color: #fff;
     margin-top: 5%;
     margin-bottom: 5%;
   }
+  .contact-container{
+    margin: 15rem;
+    padding: 18px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 100px;
+    background-color: rgb(0, 0, 0);
+}
+  
+
+  .head{
+    display: flex;
+
+  }
+  .head-contact{
+    /* box-sizing: border-box;
+    background-color: rgb(0,0,0); */
+  }
+  .css-contact-us{
+    font-size: 3.5rem;
+    color: #fff;
+
+  }
   form{
-    display: block;
+    /* display: block; */
     margin-top: 0em;
   }
-  input-container{
-    border: 0;
-    border-top-color: initial;
-      border-top-style: initial;
-      border-top-width: 0px;
-      border-right-color: initial;
-      border-right-style: initial;
-      border-right-width: 0px;
-      border-bottom-color: initial;
-      border-bottom-style: initial;
-      border-bottom-width: 0px;
-      border-left-color: initial;
-      border-left-style: initial;
-      border-left-width: 0px;
-      border-image-source: initial;
-      border-image-slice: initial;
-      border-image-width: initial;
-      border-image-outset: initial;
-      border-image-repeat: initial;
+ 
+  .input-container{
+    border:0;
   }
-  input:active{
-    border-color: black;
-  }
-  fieldset{
-    display: block;
-      margin-inline-start: 2px;
-      margin-inline-end: 2px;
-      padding-block-start: 0.35em;
-      padding-inline-start: 0.75em;
-      padding-inline-end: 0.75em;
-      padding-block-end: 0.625em;
-      min-inline-size: min-content;
-  }
+  
   
   .form-input-container{
     display: flex;
     
+    
   }
   .form-input-container > input{
     flex-grow: 1;
-    padding:0.5rem;
+    padding:3rem;
     margin: .5rem;
     height: 2rem;
     
+    
   }
   .button.default{
-    padding:0.5rem;
-    margin: .5rem;
+    padding:2rem;
+    margin: .7rem;
+    margin-left: 25rem;
     height: 2rem;
     width: 70%;
     background-color: #e50914;
-      border: 0;
+      /* border: 0; */
       color: #fff;
      
   }
-  button{
-    padding: 13px 0;
+  .send{
+    
+    font-size:large;
+    
   }
 
