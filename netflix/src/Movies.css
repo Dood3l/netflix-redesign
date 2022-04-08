@@ -116,6 +116,7 @@ body {
 .review{
     position: absolute;
     font-size: 1.5rem;
+    font-style: italic;
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -126,20 +127,12 @@ body {
     opacity: 0;
   }
 
-  /* .row_posters > p {
-    transform: scale(1.09);
-  } */
-
-  /* .row_posters > .movie.review p {
-    transform: scale(1.09);
-  } */
-
-  /* .row_posters> p {
-    opacity: 0;
-  } */
-
   .review:hover {
     opacity: 1;
+  }
+
+  .review--blur {
+      backdrop-filter: blur(10px);
   }
 
 /* nav */
