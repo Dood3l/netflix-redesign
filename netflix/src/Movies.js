@@ -31,43 +31,45 @@ function Movies() {
         </h2>
         <div className='row_posters'>
             <img className='row_poster large_row' src='/moviesimages/howtotraindragon.jpg' alt='dragon'/> 
-                <p className='review review--blur'>
+            <img className='row_poster large_row' src='/moviesimages/hometeam.jpg' alt='hometeam'/>
+            <img className='row_poster large_row' src='/moviesimages/sorrytobotheryou.png' alt='sorrytobotheryou'/>
+            <img className='row_poster large_row' src='/moviesimages/shrek.png' alt='shrek'/>
+            <img className='row_poster large_row' src='/moviesimages/thebubble.jpg' alt='thebubble'/>
+            <img className='row_poster large_row' src='/moviesimages/fourbrothers.jpeg' alt='fourbrothers'/>
+            <img className='row_poster large_row' src='/moviesimages/therental.jpg' alt='therental'/>
+            <img className='row_poster large_row' src='/moviesimages/blow.png' alt='blow'/>
+            <img className='row_poster large_row' src='/moviesimages/adamproject.png' alt='adamproject'/> 
+        </div>
+    </div>
+
+    {/* review */}
+    {/* <p className='review review--blur'>
                 This is my favorite movie of all time! I never get bored of it, the strong messages and emotional moments between characters makes it even more loveable.
                 </p> 
-            <img className='row_poster large_row' src='/moviesimages/hometeam.jpg' alt='hometeam'/>
                 <p className='review review--blur'>
                 Ugh, so dumb. I did not like this move. Don't bother.
-                </p>  
-            <img className='row_poster large_row' src='/moviesimages/sorrytobotheryou.png' alt='sorrytobotheryou'/>
+                </p> 
                 <p className='review review--blur'>
                 By far MOVIE OF THE YEAR to me.  The movie is entertaining and creative.
-                </p>  
-            <img className='row_poster large_row' src='/moviesimages/shrek.png' alt='shrek'/>
+                </p>
                 <p className='review review--blur'>
                 What a classic! I am so glad this is on Netflix!!!
-                </p>
-            <img className='row_poster large_row' src='/moviesimages/thebubble.jpg' alt='thebubble'/>
+                </p> 
                 <p className='review review--blur'>
                 Amazingly funny satirical drama. Worth a watch.
                 </p>
-            <img className='row_poster large_row' src='/moviesimages/fourbrothers.jpeg' alt='fourbrothers'/>
                 <p className='review review--blur'>
                 This was a great film, gritty Detroit, at it's best, an all-American tough guy movie.
                 </p>
-            <img className='row_poster large_row' src='/moviesimages/therental.jpg' alt='therental'/>
                 <p className='review review--blur'>
                 Very few movies kept audiences so engaged from starting to end that even after the end everyone keep guessing what exactly happened as mystery remained unfolded.
-                </p>
-            <img className='row_poster large_row' src='/moviesimages/blow.png' alt='blow'/>
+                </p>  
                 <p className='review review--blur'>
                 Blow is based on the international drug trade of the 1970s when at the time, Pablo Escobar was the headline news. 
                 </p>
-            <img className='row_poster large_row' src='/moviesimages/adamproject.png' alt='adamproject'/> 
                 <p className='review review--blur'>
                 Pretty much what everyone else said below me, this is beautifully well done! 
-                </p>
-        </div>
-    </div>
+                </p> */}
 
     {/* trending now */}
     <div className='movie_row'>
