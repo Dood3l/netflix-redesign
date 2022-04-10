@@ -13,7 +13,7 @@ function AccountLoad() {
         <div class="manage-profile">
 
         <div>
-        <Link to="/"><img src="accountimages/Netflix_2015_logo.svg"  alt="logo" class="logo"/></Link>
+        <Link to="/"><img src="accountimages/Netflix_2015_logo.svg"  alt="user" class="logo"/></Link>
         </div>
 
         <div class="accounts">
