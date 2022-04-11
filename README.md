@@ -11,7 +11,7 @@ https://github.com/Dood3l/netflix-redesign.git
 4. Open project through command line tool ---> npm start
 
 ## Contributors
-* Brian K - Deveoloper - [Github](https://github.com/dodo3l)
+* Brian K - Deveoloper - [Github](https://github.com/dood3l)
 * Edwin Escobar - Deveoloper - [Github](https://github.com/EdwinE97)
 * Alondra Ramirez - Deveoloper - [Github](https://github.com/alonramz)
 * Osiel Torres Gonzalez - Deveoloper - [Github](https://github.com/OsielTorresg)
