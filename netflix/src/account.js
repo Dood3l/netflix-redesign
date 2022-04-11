@@ -14,7 +14,7 @@ function Accounts() {
 
             <div class="profiles">
             <Link to="AccountLoad"><button class="btn"><span>User 1</span></button></Link>
-            <Link to="Accountloads"> <button class="btn"><span>User 2</span></button></Link>
+                <button class="btn"><span>User 2</span></button>
                 <button class="btn"><span>User 3</span></button>
                 <button class="btn"><span>User 4</span></button>
                 <button class="btn"><span>Add Profile</span></button>
