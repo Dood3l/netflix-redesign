@@ -18,10 +18,10 @@
     display: flex;
 
   }
-  .head-contact{
-    /* box-sizing: border-box;
-    background-color: rgb(0,0,0); */
-  }
+  /* .head-contact{
+    box-sizing: border-box;
+    background-color: rgb(0,0,0);
+  } */
   .css-contact-us{
     font-size: 3.5rem;
     color: #fff;

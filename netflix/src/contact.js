@@ -3,10 +3,10 @@ import {React, useState,} from 'react';
 import './contact.css'
 import {Link} from 'react-router-dom';
 import Nav from './components/Nav'
-import Axios from 'axios'
+import axios from 'axios'
 
 
-  
+
 
  const Contact = () => {
             const [name, setName] = useState("");
@@ -15,7 +15,7 @@ import Axios from 'axios'
             const [phone, setPhone] = useState([]);
 
             
-        const submit = () => { Axios.post("http://localhost:5000/contact", {
+        const submit = () => { axios.post('/api/contact', {
             name: name,
             last_name: last_name,
             email:email,
@@ -24,9 +24,6 @@ import Axios from 'axios'
         console.log(data)
         })}
        
-
-       
-  
     return(
         
         <>
