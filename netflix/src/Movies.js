@@ -11,7 +11,7 @@ function Movies() {
     {/* header */}
     <div className='banner'>
         <div className='backButton'>
-        <Link to="/AccountLoad"><img src='/accountimages/goBackButton.png' /></Link>
+        <Link to="/AccountLoad"><img src='/accountimages/goBackButton.png' alt="back button"/></Link>
         </div>  
 
         <div className='banner_items'>
