@@ -12,7 +12,7 @@ const db2 = mysql.createConnection({
     host: "us-cdbr-east-05.cleardb.net",
     user: "b6a78b825e0742",
     password:"ee3622fd",
-    database: "heroku_f753746a4ee891d"
+    database: "heroku_f753746a4ee891d?reconnect=true"
   });
   
 
