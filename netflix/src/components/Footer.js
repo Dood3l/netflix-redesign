@@ -21,16 +21,16 @@ const Footer = () =>{
                 <h1 className='company'>Company</h1>
             </li>
             <li>
-                <a className='company'>About Netflix</a>
+                <span className='company'>About Netflix</span>
             </li>
             <li>
-                <a className='company'>Newsroom</a>
+                <span className='company'>Newsroom</span>
             </li>
             <li>
-                <a className='company'>Start Watching</a>
+                <span className='company'>Start Watching</span>
             </li>
             <li>
-                <a className='company'>Company Assests</a>
+                <span className='company'>Company Assests</span>
             </li>
             </ul>
 
@@ -40,14 +40,14 @@ const Footer = () =>{
                 <h1 className='company'>Connect</h1>
             </li>
             <li>
-            <Link to="Contact"><a className='company'>Contact Us</a></Link>
+            <Link to="Contact"><span className='company'>Contact Us</span></Link>
             </li>
             <li>
-                <a className='socials' href='https://twitter.com/netflix'> <FontAwesomeIcon icon={faTwitter} size="2x" /></a>
+                <span className='socials' href='https://twitter.com/netflix'> <FontAwesomeIcon icon={faTwitter} size="2x" /></span>
         
-                <a className='socials' href='https://www.instagram.com/netflix/'><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+                <span className='socials' href='https://www.instagram.com/netflix/'><FontAwesomeIcon icon={faInstagram} size="2x" /></span>
         
-                <a className='socials' href='https://www.facebook.com/netflix'><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                <span className='socials' href='https://www.facebook.com/netflix'><FontAwesomeIcon icon={faFacebook} size="2x" /></span>
             </li>
             </ul>
 
@@ -57,13 +57,13 @@ const Footer = () =>{
                 <h1 className='company'>Legal</h1>
             </li>
             <li>
-                <a className='company'>Terms and Conditions</a>
+                <span className='company'>Terms and Conditions</span>
             </li>
             <li>
-                <a className='company'>Privacy</a>
+                <span className='company'>Privacy</span>
             </li>
             <li>
-                <a className='company'>Cookie Prefrences</a>
+                <span className='company'>Cookie Prefrences</span>
             </li>
             </ul>
         </footer>
