@@ -8,12 +8,21 @@ const path = require('path')
 
 const app = express();
 
-const db2 = mysql.createConnection({
-    host: "us-cdbr-east-05.cleardb.net",
-    user: "b6a78b825e0742",
-    password:"ee3622fd",
-    database: "heroku_f753746a4ee891d?reconnect=true"
-  });
+let connection;
+
+const db_config = {
+  host: "us-cdbr-east-05.cleardb.net",
+  user: "b6a78b825e0742",
+  password:"ee3622fd",
+  database: "heroku_f753746a4ee891d"
+};
+
+// const db2 = mysql.createConnection({
+//     host: "us-cdbr-east-05.cleardb.net",
+//     user: "b6a78b825e0742",
+//     password:"ee3622fd",
+//     database: "heroku_f753746a4ee891d"
+//   });
   
 
   app.use(bodyParser.json())
@@ -23,7 +32,7 @@ const db2 = mysql.createConnection({
 
 
   app.get('/api/contact', (req, res) => {
-      db2.query('SELECT * FROM contacts',
+      db_config.query('SELECT * FROM contacts',
       (err, results) => {
         if (err) throw err;
         console.log(results);
@@ -40,7 +49,7 @@ app.post('/api/contact', (req,res) => {
   const email = req.body.email;
   const phone = req.body.phone;
 
-    db2.query('INSERT INTO contacts (name,last_name,email,phone)VALUES(?,?,?,?)'
+    db_config.query('INSERT INTO contacts (name,last_name,email,phone)VALUES(?,?,?,?)'
     ,[name,last_name,email,phone]),
     (err, result) => {
       console.log(err);
@@ -52,17 +61,36 @@ app.use((req, res, next) => {
     res.sendFile(path.join(__dirname, './build', 'index.html'))
 })
        
-db2.connect((err) => {
-  if (err) {
-    console.log(err);
-    return err;
-  } else {
-    console.log("db2 connection successful!");
-  }
-});
+// db_config.connect((err) => {
+//   if (err) {
+//     console.log(err);
+//     return err;
+//   } else {
+//     console.log("db_config connection successful!");
+//   }
+// });
   
 app.listen(process.env.PORT || 5000, function(){
   console.log(`Express is working on port 5000`)
 });
 
-  
+function handleDisconnect() {
+  connection = mysql.createConnection(db_config); 
+
+  connection.connect(function(err) {              
+    if(err) {                                    
+      console.log('error when connecting to db:', err);
+      setTimeout(handleDisconnect, 2000); 
+    }                                     
+  });                                     
+                                          
+  connection.on('error', function(err) {
+    console.log('db error', err);
+    if(err.code === 'PROTOCOL_CONNECTION_LOST') { 
+      handleDisconnect();                         
+    } else {                                      
+      throw err;                                  
+    }
+  });
+}
+handleDisconnect();
