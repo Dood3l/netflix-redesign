@@ -10,19 +10,19 @@ const app = express();
 
 let connection;
 
-const db_config = {
-  host: "us-cdbr-east-05.cleardb.net",
-  user: "b6a78b825e0742",
-  password:"ee3622fd",
-  database: "heroku_f753746a4ee891d"
-};
+// const db2 = {
+//   host: "us-cdbr-east-05.cleardb.net",
+//   user: "b6a78b825e0742",
+//   password:"ee3622fd",
+//   database: "heroku_f753746a4ee891d"
+// };
 
-// const db2 = mysql.createConnection({
-//     host: "us-cdbr-east-05.cleardb.net",
-//     user: "b6a78b825e0742",
-//     password:"ee3622fd",
-//     database: "heroku_f753746a4ee891d"
-//   });
+const db2 = mysql.createConnection({
+    host: "us-cdbr-east-05.cleardb.net",
+    user: "b6a78b825e0742",
+    password:"ee3622fd",
+    database: "heroku_f753746a4ee891d"
+  });
   
 
   app.use(bodyParser.json())
@@ -32,7 +32,7 @@ const db_config = {
 
 
   app.get('/api/contact', (req, res) => {
-      db_config.query('SELECT * FROM contacts',
+      db2.query('SELECT * FROM contacts',
       (err, results) => {
         if (err) throw err;
         console.log(results);
@@ -49,7 +49,7 @@ app.post('/api/contact', (req,res) => {
   const email = req.body.email;
   const phone = req.body.phone;
 
-    db_config.query('INSERT INTO contacts (name,last_name,email,phone)VALUES(?,?,?,?)'
+    db2.query('INSERT INTO contacts (name,last_name,email,phone)VALUES(?,?,?,?)'
     ,[name,last_name,email,phone]),
     (err, result) => {
       console.log(err);
@@ -61,12 +61,12 @@ app.use((req, res, next) => {
     res.sendFile(path.join(__dirname, './build', 'index.html'))
 })
        
-// db_config.connect((err) => {
+// db2.connect((err) => {
 //   if (err) {
 //     console.log(err);
 //     return err;
 //   } else {
-//     console.log("db_config connection successful!");
+//     console.log("db2 connection successful!");
 //   }
 // });
   
@@ -75,7 +75,7 @@ app.listen(process.env.PORT || 5000, function(){
 });
 
 function handleDisconnect() {
-  connection = mysql.createConnection(db_config); 
+  connection = mysql.createConnection(db2); 
 
   connection.connect(function(err) {              
     if(err) {                                    
