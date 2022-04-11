@@ -17,7 +17,7 @@ function Accounts() {
                 <button class="btn"><span>User 2</span></button>
                 <button class="btn"><span>User 3</span></button>
                 <button class="btn"><span>User 4</span></button>
-                <button class="btn"><span>Add Profile</span></button>
+                <button class="btn"></button>
             </div>
 
             <button class="manage">Manage profiles</button>

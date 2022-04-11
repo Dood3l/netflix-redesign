@@ -1,5 +1,12 @@
 # Netflix Redesign
-Netflix Redesign is our vision of how the Netflix site should look. Viewers are greet with the profile selection screen. From there, only the first user is functional for the time being. You are then greeted with two options to choose from, movies or tv shows. 
+Netflix Redesign is our vision of how the Netflix site should look. Viewers are greet with the profile selection screen. From there, only the first user is functional for the time being. You are then greeted with two options to choose from, movies or tv shows.
+
+## Supported Mobile Devices
+* iPhone 12 pro
+* Pixel 5
+* Samsung Galaxy S8+
+* iPad Air
+* iPad Mini
 
 ## Getting Started
 1. Clone this repository into your terminal --->

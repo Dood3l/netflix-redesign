@@ -2,7 +2,6 @@ import './App.css';
 import {React, useState,} from 'react';
 import './contact.css'
 import {Link} from 'react-router-dom';
-import Nav from './components/Nav'
 import axios from 'axios'
 
 
@@ -28,7 +27,6 @@ import axios from 'axios'
         
         <>
         
-        <Nav />
         <div>
         <Link to="/"><img src="accountimages/Netflix_2015_logo.svg"  alt="logo" class="logo"/></Link>
         </div>

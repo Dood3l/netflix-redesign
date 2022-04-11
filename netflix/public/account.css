@@ -43,6 +43,7 @@ html {
     height: 100vh;
     background-color: #141414;
     text-align: left;
+    position: relative;
 }
 .profiles {
     display: flex;
@@ -61,6 +62,7 @@ html {
     position: relative;
     cursor: pointer;
 }
+
 
 .manage {
     border: 1px solid grey;
@@ -179,16 +181,13 @@ html {
     background-image: url("accountimages/plusIcon.png");
     transition-duration: 0.4s;
     background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 100px;
 }
 .btn:nth-child(5):hover{
     transition-duration: 0.4s;
     width: 225px;
     height: 225px;
     background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 100px;
+    
 }
 .loading {
     padding-top: 30px;
@@ -197,7 +196,7 @@ html {
 .backButton{
     display: flex;
     justify-content: flex-end;
-    margin-right: 0.5%;
+    margin-right: 20px;
 }
 .backButton img{
     width: 75px;
@@ -208,4 +207,56 @@ html {
     transition-duration: 0.4s;
     width: 85px;
     height: auto;
+}
+
+@media (max-width: 940px) {
+    .btn {
+        margin-top: 7rem;
+    }
+    .accounts h1 {
+        font-size: 5rem;
+        letter-spacing: 0.2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn {
+        margin-top: 7rem;
+        height: 125px;
+        width: 125px;
+        margin-right: 10px;
+        border-radius: 8px;
+    }
+    .accounts h1 {
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+    }
+    .accounts h2 {
+        font-size: 1.8rem;
+        letter-spacing: 0.2rem;
+    }
+    .manage {
+        padding: 0.5rem 2rem;
+        margin-top: 5%;
+    }
+    .btn:nth-child(1):hover{
+        width: 150px;
+        height: 150px;
+    }
+    .btn:nth-child(2):hover{
+        width: 150px;
+        height: 150px;
+    }
+    .btn:nth-child(3):hover{
+        width: 150px;
+        height: 150px;
+    }
+    .btn:nth-child(4):hover{
+        width: 150px;
+        height: 150px;
+    }
+    .btn:nth-child(5):hover{
+        width: 150px;
+        height: 150px;
+    }
 }
