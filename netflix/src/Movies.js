@@ -4,7 +4,6 @@ import Nav from '../src/components/Nav.js'
 import { counter } from '@fortawesome/fontawesome-svg-core';
 
 function Movies() {
-
   return (
     <>
       <Nav />
@@ -178,10 +177,72 @@ function Movies() {
         </div>
       </div>
 
-      <div className="container_reviews">
-        <div className="review_board">
-          <h2>The Adam Project</h2>
-          <p>OMG!! Such an amazing movie</p>
+      {/* reviews */}
+      <div className="review_row">
+        <h2>Most reviewed movies of 2021</h2>
+        <div className="review_poster">
+          <img
+            className="review_movie"
+            src="/moviesimages/theguilty.jpg"
+            alt="guilty"
+          />
+          <div className="review">
+            <p>
+              Sit on the edge of your seat and watch one of the best suspense
+              movies you'll see on Netflix any time soon.
+            </p>
+            <br />
+            <strong>4.5/5</strong>
+          </div>
+        <img
+            className="review_movie"
+            src="/moviesimages/hypnotic.jpg"
+            alt="hypnotic"
+          />
+          <div className="review">
+            <p>
+            I have thoroughly enjoyed the film and the lovely ride it gave!
+            The flow of story is fantastic, the plot itself is interesting and keeps attention.
+            </p>
+            <br />
+            <strong>4/5</strong>
+          </div>
+          <img
+            className="review_movie"
+            src="/moviesimages/badtrip.png"
+            alt="badtrip"
+          />
+          <div className="review">
+            <p>
+            By far one of the most unique, well done and hilarious movies I have ever seen. I cannot remember the last time I've Laughed like that. 
+            </p>
+            <br />
+            <strong>5/5</strong>
+          </div>
+          <img
+            className="review_movie"
+            src="/moviesimages/14peaks.png"
+            alt="14peaks"
+          />
+          <div className="review">
+            <p>
+            A great message at every journey! It makes you feel like you are going through the ups and downs together with the team!  
+            </p>
+            <br />
+            <strong>5/5</strong>
+          </div>
+          <img
+            className="review_movie"
+            src="/moviesimages/stowaway.png"
+            alt="stowaway"
+          />
+          <div className="review">
+            <p>
+            If you're looking for a heart-shaking movie that will make you cry you have found it.  
+            </p>
+            <br />
+            <strong>3/5</strong>
+          </div>
         </div>
       </div>
     </>
