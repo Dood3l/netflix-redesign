@@ -28,7 +28,6 @@ import axios from 'axios'
         
         <>
         
-        <Nav />
         <div>
         <Link to="/"><img src="accountimages/Netflix_2015_logo.svg"  alt="logo" class="logo"/></Link>
         </div>
