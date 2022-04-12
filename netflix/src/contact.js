@@ -36,7 +36,7 @@ const Contact = () => {
                 <Link to="/"><img src="accountimages/Netflix_2015_logo.svg" alt="logo" class="logo" /></Link>
             </div>
             <main className="contact-container">
-        <form className="content-box">
+        <form method='POST' className="content-box" action="/contact">
             <div className="left" style={hero}></div>
             <div className="right">
                 <h2 className='contact-h2'>Contact Us</h2>
