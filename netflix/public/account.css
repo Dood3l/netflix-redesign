@@ -39,8 +39,8 @@ html {
     transition-duration: 0.4s;
 }
 .manage-profile {
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     background-color: #141414;
     text-align: left;
     position: relative;
