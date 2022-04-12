@@ -1,5 +1,5 @@
 # Netflix Redesign
-Netflix Redesign is our vision of how the Netflix site should look. Viewers are greet with the profile selection screen. From there, only the first user is functional for the time being. You are then greeted with two options to choose from, movies or tv shows.
+Netflix Redesign is our vision of how the Netflix site should look. Viewers are greet with the profile selection screen. From there, only the first user is functional for the time being. You are then greeted with two options to choose from, movies or tv shows. In order to navigate through the shows, you must use the arrow keys on the keyboard if on desktop.
 
 ## Supported Mobile Devices
 * iPhone 12 pro
