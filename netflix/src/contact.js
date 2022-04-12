@@ -39,7 +39,7 @@ const Contact = () => {
         <form className="content-box">
             <div className="left" style={hero}></div>
             <div className="right">
-                <h2>Contact Us</h2>
+                <h2 className='contact-h2'>Contact Us</h2>
                 <input name="first name" placeholder=' First Name' className='field' onChange={(e) => {
                                     setName(e.target.value)
                                 }} required />

@@ -10,27 +10,27 @@ function AccountLoad() {
     //code above redirects to new page after 5 second delay
 
     return (
-        <div class="manage-profile">
+        <div className="manage-profile">
 
         <div>
-        <Link to="/"><img src="accountimages/Netflix_2015_logo.svg"  alt="user" class="logo"/></Link>
+        <Link to="/"><img src="accountimages/Netflix_2015_logo.svg"  alt="user" className="logo"/></Link>
         </div>
 
-        <div class="accounts">
+        <div className="accounts">
 
             <h1>Welcome back User 1!</h1>
             <br />
             <h2>What're you feeling today?</h2>
 
-            {/* <div class="loading">
+            {/* <div className="loading">
             <img src="accountimages/Spinner.gif" />
             </div> */}
 
-            <div class="profiles">
-            <Link to="/movies"><button class="btn"><span>Movies</span></button></Link>
-                <Link to="/shows"><button class="btn"><span>TV Shows</span></button></Link>
+            <div className="profiles">
+            <Link to="/movies"><button className="btn"><span>Movies</span></button></Link>
+                <Link to="/shows"><button className="btn"><span>TV Shows</span></button></Link>
             </div>
-            <Link to="/" className='loadingTopSpace'><button class="goBack">Go Back</button></Link>
+            <Link to="/" className='loadingTopSpace'><button className="goBack">Go Back</button></Link>
         </div>
 
     </div>
