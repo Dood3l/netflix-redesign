@@ -36,3 +36,4 @@ app.get("/api/products", (req, res) => {
 app.listen(4000, () => {
   console.log(`Console server listening on port 4000.`);
 });
+
