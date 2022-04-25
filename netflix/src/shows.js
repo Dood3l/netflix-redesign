@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom';
 function Shows() {
   return (
     <>
-    <Nav  />
+    {/* <Nav  /> */}
    
     
 
@@ -17,7 +17,7 @@ function Shows() {
     <div className='banner1'>
 
         <div className='backButton'>
-        <Link to="/AccountLoad"><img src='/accountimages/goBackButton.png' /></Link>
+        <Link to="/AccountLoad"><img src='/accountimages/goBackButton.png' alt='back button'/></Link>
         </div>  
 
 
