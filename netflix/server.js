@@ -74,6 +74,8 @@ app.listen(process.env.PORT || 5000, function(){
   console.log(`Express is working on port 5000`)
 });
 
+<<<<<<< HEAD
+=======
 function handleDisconnect() {
   connection = mysql.createConnection(db2); 
 
@@ -95,3 +97,4 @@ function handleDisconnect() {
   });
 }
 handleDisconnect();
+>>>>>>> b4d0f88aef9afb02bebb32fe68cfdd38edc2d13e

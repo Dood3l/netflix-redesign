@@ -1,13 +1,16 @@
 import React from 'react'
 import './Movies.css';
+
 // import '/shows.css'
 import Nav from '../src/components/Nav.js'
 import {Link} from 'react-router-dom';
 
+
 function Shows() {
   return (
     <>
-    <Nav />
+    {/* <Nav  /> */}
+   
     
 
     {/* header */}
